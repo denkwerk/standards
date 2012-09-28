@@ -1,6 +1,6 @@
 # denkwerk (S)CSS standard
 
-## Performance:
+## Performance: 
 
 - CSS: Maximum 4 selectors in a row. The fewer, the better / faster
 - Use Sprites:  Multiple images together into one big. Really simple with Compass/SCSS
