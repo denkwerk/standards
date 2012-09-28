@@ -1,8 +1,8 @@
-# Denkwerk Coding Guidelines
+# denkwerk Coding Guidelines
 
-[Denkwerk webseite](http://www.denkwerk.com)
+[denkwerk webseite](http://www.denkwerk.com)
 
-## Standars
+## Standards
 
 - [HTML](https://github.com/denkwerk/standards/blob/master/HTML/html-standard.md)
 - [CSS](https://github.com/phillipkroll/standards/blob/master/CSS/scss-standard.md)
