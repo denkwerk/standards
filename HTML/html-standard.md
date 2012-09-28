@@ -1,5 +1,5 @@
 # denkwerk HTML Standards
-
+.
 ## Coding Guidelines
 
 Inspired by [Twitter Bootstrap](http://twitter.github.com/bootstrap/) and [Object Oriented CSS](https://github.com/stubbornella/oocss/wiki)
