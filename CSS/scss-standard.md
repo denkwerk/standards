@@ -1,5 +1,5 @@
 # denkwerk (S)CSS standard
-
+ 
 ## Performance: 
 
 - CSS: Maximum 4 selectors in a row. The fewer, the better / faster
