@@ -1,9 +1,8 @@
-# denkwerk Coding Guidelines
+# denkwerk coding standards
 
-[denkwerk webseite](http://www.denkwerk.com)
-
-## Standards
+[denkwerk website](http://www.denkwerk.com)
 
 - [HTML](https://github.com/denkwerk/standards/blob/master/HTML/html-standard.md)
-- [CSS](https://github.com/phillipkroll/standards/blob/master/CSS/scss-standard.md)
-- [PHP](https://github.com/phillipkroll/standards/blob/master/PHP/php-standard.md)
+- [CSS](https://github.com/denkwerk/standards/blob/master/CSS/scss-standard.md)
+- [PHP](https://github.com/denkwerk/standards/blob/master/PHP/php-standard.md)
+- [TYPO3](https://github.com/denkwerk/standards/blob/master/TYPO3/typo3-standard.md)
