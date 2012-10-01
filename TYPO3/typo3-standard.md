@@ -8,20 +8,18 @@
 
 - BASE
 	- htdocs
-		- **chpt**: web root (see chapter CMS > Folder structure)
+		- **public**: public web root (see chapter TYPO3 structure)
 		- **configuration**: environment configuration (see chapter Configuration)
 			- **global.ini**: all configuration except database
-			- **localconf**: database configuration
-				- **env.php**: for servers with env variable
-				- **no_env.php**: for servers without env variable
+			- **localconf.php**: database configuration
 		- sources
 			- **typo3_src-(...)**: TYPO3 sources
 			- **Zend**: Zend Framework sources
 		- sql
-			- **scnn.sql**: complete portal database
-			- **templavoila.sql**: Templavoila only tables
+			- **project.sql**: complete project database
+			- **templavoila.sql**: only Templavoila tables
 
-### TYPO3  structure
+### TYPO3 structure
 
 *Description of the most important folders in TYPO3:*
 
@@ -59,6 +57,6 @@
 
 ## Configuration
 
-The reason of the configuration is a central place where all developers can maintain their local as well as the server configuration. It is splitted into two parts - **global.ini** for everything except database and server hacks and for that matters the folder **localconf**. 
+The reason of the configuration is a central place where all developers can maintain their local as well as the server configuration. It is splitted into two parts - **global.ini** for everything except database and server hacks. Therefore the **localconf.php** is used.
 
-The global.ini is rendered as a PHP array and TypoScript Constants. For that the TYPO3 extension dw_config is used. Because TYPO3 indexes the database configuration before any extension code is rendered, the database configuration has to be done in the localconf/env.php for local systems. The localconf/no_env.php is used for Tarot deployments.
+The global.ini is rendered as a PHP array and TypoScript Constants. For that the TYPO3 extension dw_config is used. Because TYPO3 indexes the database configuration before any extension code is rendered, the database configuration has to be done in the localconf.php for local systems.
