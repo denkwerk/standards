@@ -1,4 +1,4 @@
-# PHP Code Convention
+r# PHP Code Convention
 Dieses Dokument legt Regeln für die Formatierung von PHP Code fest. Falls die Einhaltung einer Regel nicht möglich ist, muss dies begründet werden.
 
 ## Dateiformatierung
