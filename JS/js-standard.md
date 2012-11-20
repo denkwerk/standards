@@ -215,7 +215,13 @@ von jshint & jslint
     });
 
     ```
-
+	<i><u>Allgemeines zu Funktionen</u></i>
+	
+	<p>Scope möglichst auf 10 Zeilen beschränken</p>
+	<p>Nicht mehr als 80 Zeichen pro Zeile</p>
+	<p>Tiefe Verschachtelungen vermeiden</p>
+	
+	
     <b>C. Anführungszeichen</b><br />
 	<p>Im Gegensatz zu anderen Programmiersprachen gibt es bei JavaScript keine
 	unterschiedung zwischen doppelten und einfach Anführungszeichen.
