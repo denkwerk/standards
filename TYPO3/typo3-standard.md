@@ -25,6 +25,7 @@
 
 - fileadmin
 	- templates
+		- **config.rb**: Compass configuration file
 		- **css**: stylesheet files, auto-compiled by Compass
 		- **font**: webfonts
 		- **html**: HTML templates
