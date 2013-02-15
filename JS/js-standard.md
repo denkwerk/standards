@@ -360,7 +360,7 @@ Stand: 15.02.2013
         	"eqeqeq" : true,
         	"immed" : true,
         	"indent": true,
-        	"quotmark": true,
+        	"quotmark": "single",
         	"trailing": true,
         	"maxparams": 4,
         	"maxdepth": 3,
