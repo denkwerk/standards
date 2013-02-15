@@ -349,3 +349,30 @@ Denkwerk standard zur Erstellung von JavaScript Unit Tests ist <b>QUnit</b>.
  * [jslint](http://jslint.org/)
 
 [Leveraging Code Quality Tools by Anton Kovalyov](http://anton.kovalyov.net/slides/gothamjs/)
+
+### JSHint-Konfiguration auf CI-Server
+Stand: 15.02.2013
+
+    	{
+    		"camelcase": true,
+    	    "undef": true,
+    	    "unused": true,
+        	"eqeqeq" : true,
+        	"immed" : true,
+        	"indent": true,
+        	"quotmark": true,
+        	"trailing": true,
+        	"maxparams": 4,
+        	"maxdepth": 3,
+        	"maxstatements": 10,
+    	    "browser": true,
+        	"maxlen": 120,
+        	"maxcomplexity": 13,
+    	    "globals": {
+    		"MY_GLOBAL": false
+    	    },
+        	"predef" : [
+        	    "$"
+        	]
+    	}
+
