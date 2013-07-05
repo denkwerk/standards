@@ -1,5 +1,39 @@
 # Standard Frontend Project
 
+
+    project-folder 
+	  js
+	    custom
+	    vendor
+	    custom.min.js (minified custom scripts)
+	    vendor.min.js (minified vendor scripts)
+	  css
+	    main.css (generated css)
+	    print.css (generated css)
+	  font
+	  images
+	    sprites
+	    bg
+	      content
+	      layout
+	  scss
+	    custom
+	      _normalize.scss
+	      _base.scss
+	      _config.scss
+	      _contents.scss
+	      _ie.scss
+	      _mixins.scss
+	      _partials.scss
+	      _patterns.scss
+	      _sprites.scss
+	      _widgets.scss
+	      _media.scss
+	    vendor
+	    main.scss
+	    print.scss
+
+
 ### javascript
 #### custom
 contains the own javascript. It's possible to create a own file for each section.
