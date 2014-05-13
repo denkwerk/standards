@@ -2,7 +2,7 @@
 
 [denkwerk website] (http://www.denkwerk.com)
 
-- [Projectstructure](https://github.com/denkwerk/standards/blob/master/HTML/html-standard.md)
+- [Projectstructure](https://github.com/denkwerk/standards/blob/master/Structure/frontend.md)
 - [HTML](https://github.com/denkwerk/standards/blob/master/HTML/html-standard.md)
 - [CSS](https://github.com/denkwerk/standards/blob/master/CSS/css-standard.md)
 - [JavaScript](https://github.com/denkwerk/standards/blob/master/JS/js-standard.md)
