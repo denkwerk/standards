@@ -1,6 +1,5 @@
 # Standard Frontend Project
 
-
     project-folder 
 	  js
 	    custom
@@ -29,6 +28,13 @@
 	      _sprites.scss
 	      _widgets.scss
 	      _media.scss
+          modules
+           0_767
+            _example.scss
+           768_1023
+            _example.scss
+           768_infinite
+            _example.scss
 	    vendor
 	    main.scss
 	    print.scss
@@ -105,6 +111,34 @@ Contains the interactive elements of the project.
 ##### _media.scss
 includes media queries for screen, tablet and mobile devices. 
 In a seperate folder named "modules" are for each resolution further folders. In these folders you have to save the SCSS files for each resolution.
+
+    /**********************************
+    *   SCREEN STYLES
+    *
+    *   @media (min-width: 768px) {}
+    **********************************/
+    @media (min-width: 768px) {
+        @import "modules/768_infinite/example";
+    }
+
+    /**********************************
+    *   IPAD STYLES
+    *
+    *   @media (min-width: 768px) and
+    *   (max-width: 1023px) {}
+    **********************************/
+    @media (min-width: 768px) and (max-width: 1023px) {
+        @import "modules/768_1023/example";
+    }
+
+    /**********************************
+    *   MOBILE STYLES
+    *
+    *   @media (max-width: 767px) {}
+    **********************************/
+    @media (max-width: 767px) {
+        @import "modules/0_767/example";
+    }
 
 
 #### vendor
